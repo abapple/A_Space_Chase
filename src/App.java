@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        // System.out.println("Hello, World!");
         String AccessLocations[] = {"COM", "OUT", "STA", "BDR", "KIT", "LOU", "ENG", "BIO", "GRH", "NAV"};
         //arraylist holding ten rn; 0-9
        // Crew captain = new Crew ("Captain", "Abigail Conlin", "021102102201");
@@ -24,10 +24,12 @@ public class App {
         members.add(USER); // USER == 5
 
         System.out.println(members);
-        FileWriter logs = new FileWriter("Access.txt");
-        logs.write("Files in java tricky but it ok");
-        logs.close();
+        // FileWriter logs = new FileWriter("Access.txt");
+        // logs.write("ACCESS:" + location + ";USERID:" + id
+            // + ";DATE:" + date + ";TIME:" + time);
+        // logs.close();
         System.out.println("done");
+
 
 
 
