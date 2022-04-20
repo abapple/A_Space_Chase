@@ -66,7 +66,14 @@ public class App {
             }
             case "NAV"://nav
             {
-                crew = members.get(2); //navigator
+                int r = (int)(Math.random()*((100 -0)+1)+0);
+                if(r<=80){
+                    crew = members.get(2); //navigator
+                }else if((80 < r) &&(r <= 90)){
+                    crew = members.get(0); //captain
+                }
+               
+                
                 break;
 
             }
@@ -98,7 +105,8 @@ public class App {
 
             }
         }
-       
+       //add a captain probability for overall appearance 
+
         //now loc == location and you have the crew member who logged
         Map<String, Crew> s = new HashMap<>();
         s.put(loc, crew);
@@ -142,6 +150,7 @@ public class App {
        // Crew captain = new Crew ("Captain", "Abigail Conlin", "021102102201");
         // Map<Integer, String> crewID = new HashMap<Integer, String>();
 
+        //ADD SUS STATEMENTS
         Crew captain = new Crew("Captain","Abigail Conlin", "021102102201", "Great work! Let's get these colonists to their new homes.");
         members.add(captain); // captain == 0
         Crew engineer = new Crew("Head Engineer", "Xavier Llewellyn", "062889040422", "Ship is purring like a kitten!!");

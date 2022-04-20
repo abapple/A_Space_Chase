@@ -5,7 +5,8 @@ public class Crew {
     String role;
     String ID;
     int sus_lvl = 0;
-    String ele_phrase;
+    String ephrase;
+    String sphrase;
     String[] general_Log = {"Lookin' good.", "Ready to go!", "All set!!", 
         "Up and ready.", "Clear down here.", "This place isn't so bad."};
 
@@ -13,7 +14,7 @@ public class Crew {
         this.name = n;
         this.role = r; 
         this.ID = i;
-        this.ele_phrase = p;
+        this.ephrase = p;
         char s = role.charAt(0);
         // switch(s){
         //     case 'C':
