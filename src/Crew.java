@@ -10,12 +10,13 @@ public class Crew {
     String[] general_Log = {"Lookin' good.", "Ready to go!", "All set!!", 
         "Up and ready.", "Clear down here.", "This place isn't so bad."};
 
-    Crew(String r, String n, String i, String p){
+    Crew(String r, String n, String i, String p, String s){
         this.name = n;
         this.role = r; 
         this.ID = i;
         this.ephrase = p;
-        char s = role.charAt(0);
+        this.sphrase = s;
+        // char s = role.charAt(0);
         // switch(s){
         //     case 'C':
         //     {
