@@ -218,6 +218,24 @@ public class App {
                         }
         
                         //IF STATEMENT FOR THE BIOCOUNTER
+                        switch(BIOcnt){
+                            case 4:
+                            case 11:
+                            case 14: 
+                            case 25:
+                            case 32:
+                            case 44:
+                            case 70:
+                            case 84:
+                            {
+                                crew = members.get(2);//be nav for the code
+                                break;
+                            }
+                            default:
+                            {
+                                break;
+                            }
+                        }
         
                         break;
         
