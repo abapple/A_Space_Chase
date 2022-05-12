@@ -1,6 +1,6 @@
-## Getting Started
+## A_SPACE_CHASE 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This is a simple Java program that is the base structure for generating automatic logs for the EscapDeath: A Space Chase interactive website-based learning game. It will generate overall logs "every hour" for the fictional times set, setting Access Logs and then generating corresponding detailed logs for that location on the ship on which the game takes place. The statements for location logs are generated based on the crew member with the exception of the special cases that correspond to both game lore and puzzle pieces. 
 
 ## Folder Structure
 
